@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=DM+Sans:wght@700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@400;700&family=Rubik&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+}
+/* global variables */
+:root{
+    --bg-color:#081b29;
+    --secondary-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+}
+html{
+    font-size: 62%;
+    overflow-x: hidden;
+}
+body
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    /* height: 150vh; */
+}

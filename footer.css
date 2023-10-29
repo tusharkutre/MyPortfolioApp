@@ -1,0 +1,31 @@
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--secondary-bg-color);
+}
+.footer-text>p
+{
+    font-size: 1.6rem;
+}
+.footer-icontop>.foot>.arrow
+{
+    font-size: 15px;
+}
+.footer-icontop>.foot>.arrow
+{
+    background: var(--main-color);
+    padding: 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: .3rem solid var(--main-color);
+    transition: .5s;
+    /* scroll-behavior: smooth; */
+}
+.foot>.arrow:hover{
+    background: var(--secondary-bg-color);
+    color: var(--text-color);
+}

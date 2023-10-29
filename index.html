@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/a861292912.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="education.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="mobilesmall.css" />
+    <link rel="stylesheet" href="mobilemedium.css">
+    <link rel="stylesheet" href="mobilelarge.css">
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="laptop.css" />
+    <link rel="stylesheet" href="mintab.css" />
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a861292912.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- will render the whole html doc to the browser by auto-saving the page -->
+
+    <!-- header components/section -->
+    <header class="header">
+      <h3 class="logo">MyPortfolio.</h3>
+
+      <!-- <div class="menu" id="menu">
+        <div>
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+        </div>
+      </div> -->
+
+      <div class="sidebar">
+        <div class="toggle-button border-white" onclick="toggleSidebar()">&#9776;</div>
+        <ul class="navbar">
+              <a href="#home" class="active">Home</a>
+              <a href="#about" class="new">About</a>
+              <a href="#education" class="new">Education</a>
+              <a href="#skills" class="new">Skills</a>
+              <a href="#projects" class="new">Projects</a>
+              <a href="#contact" class="new">Contact</a>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- Your content goes here -->
+    </div>
+
+    <div class="mobilemode">
+      <label for="cars">Choose a Theme:</label>
+
+      <select title="dark" name="cars" id="themes">
+          <option value="default" id="default">Default</option>
+          <option value="white" id="whitemode">White</option>
+          <option value="dark" id="dark">Dark</option>
+      </select>
+  </div>
+
+      <!-- <div class="box">
+          <img class="moon" src="img/3dmoon-removebg-preview.png" alt="">
+        </div> -->
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="left-box-1">
+        <a
+          href=""
+          class="typewrite"
+          data-period="2000"
+          data-type='[ "Hi, Im Tushar.", "I am Creative.", "I Love Designing.","I am a Front-end developer", "I Love to Develop." ]'
+        >
+          <span class="wrap"></span>
+        </a>
+
+        <p class="line-height">
+          Hi I'm Tushar,a passionate front-end developer who loves to
+          <span
+            style="
+              background-color: var(--main-color);
+              padding: 2.5px 5px;
+              border-radius: 5px;
+              color: white;
+            "
+            >code</span
+          >
+          very enthusiatically and dedicatedly.
+        </p>
+
+        <div class="btn-box btn-box-small">
+          <a href="#" class="btn">Hire Me</a>
+          <a href="#" class="btn">Let's Talk</a>
+        </div>
+
+        <div class="icons">
+          <a href=""><i class="ico fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="ico fa-brands fa-instagram"></i></a>
+          <a href=""><i class="ico fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="right-box-1">
+        <img class="boi" src="img/dev.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span> Me</span></h2>
+
+      <div class="about-img">
+        <img src="img/tushar.jpg" alt="" />
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h3
+          class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-600 to-white"
+        >
+          Front-end Developer!
+        </h3>
+        <p class="line-spacing">
+          Hello, I'm Tushar, a passionate front-end developer with a deep love
+          for crafting beauitful webapps. My journey into the world of web
+          development began with a fascination for the intersection of
+          technology and design.
+        </p>
+      </div>
+
+      <div class="btn-box new-btn">
+        <a href="#" class="btn">View Resume</a>
+      </div>
+    </section>
+
+    <!-- education section -->
+    <section class="education" id="education">
+      <h2 class="heading">my <span>Journey</span></h2>
+
+      <div class="education-row">
+        <div class="education-column">
+          <h3
+            class="title font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-white"
+          >
+            Education
+          </h3>
+
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="fa-solid fa-calendar-days"></i> 2012-2018
+                </div>
+                <h3>VD & SV Wagle High School, Goa</h3>
+                <p>
+                  I completed my schoolings from V.D&S.V Wagle high school in
+                  Goa.
+                </p>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="fa-solid fa-calendar-days"></i> 2018-2021
+                </div>
+                <h3>Diploma Degree - Gomatesh polytechnic,Belgaum</h3>
+                <p>
+                  Successfully completed diploma course which was of 3-years in
+                  Computer Science and Engineering
+                </p>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="fa-solid fa-calendar-days"></i> 2021-2024
+                </div>
+                <h3>Bachelor Degree - AITM , Belgaum</h3>
+                <p>
+                  "Completed my Btech engineering in AITM,belagavi in the domain
+                  of computer science and Enginnering, I had an amazing learning
+                  experience. Located in belagavi, it had great teachers and a
+                  diverse student community. I gained valuable knowledge,
+                  skills, and friends that have been crucial in my journey."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-column">
+          <h3
+            class="title font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-600 to-white"
+          >
+            Internship Experience
+          </h3>
+
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="fa-solid fa-calendar-days"></i>2012-2018
+                </div>
+                <h3>Full-stack Developer Intern - Edureka</h3>
+                <a href="assets/intern certificate.pdf" target="_blank"
+                  >View Certificate</a
+                >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat mollitia quidem magni tempora veniam praesentium
+                  doloremque explicabo sit quos aperiam.
+                </p>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="fa-solid fa-calendar-days"></i>2018-2021
+                </div>
+                <h3>Web Developer Intern - company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat mollitia quidem magni tempora veniam praesentium
+                  doloremque explicabo sit quos aperiam.
+                </p>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="fa-solid fa-calendar-days"></i>2021-2024
+                </div>
+                <h3>Web Developer Intern - company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat mollitia quidem magni tempora veniam praesentium
+                  doloremque explicabo sit quos aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-row">
+        <div class="skills-column">
+          <!--child-1-->
+          <h3 class="title">Coding Skills</h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <i class="orange fa-brands fa-html5"></i> HTML
+                  </div>
+                  <span>100%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <i class="blue fa-brands fa-html5"></i> CSS
+                  </div>
+                  <span>90%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <i class="yellow fa-brands fa-js"></i> Javascript
+                  </div>
+                  <span>60%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <img
+                      class="tailwind"
+                      src="img/tailwind-css-icon.png"
+                      alt=""
+                    />
+                    Tailwind CSS
+                  </div>
+                  <span>90%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <i class="java fa-brands fa-java"></i> Java
+                  </div>
+                  <span>50%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <i class="cpp fa-solid fa-c"></i> C++
+                  </div>
+                  <span>40%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>
+                  <div class="spacing">
+                    <img class="mysql" src="img/mysql.png" alt="" /> MySQL
+                  </div>
+                  <span>70%</span>
+                </h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <!--child-2-->
+          <h3 class="title">Professional Skills</h3>
+
+          <div class="skills-box">
+            <div class="skills-content padding-bottom-box">
+              <div class="progress">
+                <h3>web Design <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Web Development <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Graphic Design <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Android Development <span>40%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="grid-container">
+        <div class="boxes">
+          <div class="box">
+            <img class="microsoft" src="img/micro.jpg" alt="" />
+            <div class="auto">
+              <h3>Microsoft front-End clone</h3>
+              <a
+                rel="noopener"
+                href="https://microsoftcloneapp.netlify.app/"
+                target="_blank"
+                >click to Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <img class="netflix" src="img/netflix.jpg" alt="" />
+            <div class="auto">
+              <h3>Netflix front-End clone</h3>
+              <a
+                rel="noopener"
+                href="https://dev5898.d2y8ud5ewkhcr4.amplifyapp.com/"
+                target="_blank"
+                >click to Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <img class="netflix" src="img/todo.png" alt="" />
+            <div class="auto">
+              <h3>Todo list app</h3>
+              <a
+                rel="noopener"
+                href="https://to-do-list-app01.netlify.app/"
+                target="_blank"
+                >click to Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <img class="netflix" src="img/UI template.png" alt="" />
+            <div class="auto">
+              <h3>
+                UI/UX Design By TailwindCSS
+                <img class="tailwind" src="img/tailwind-css-icon.png" alt="" />
+              </h3>
+              <a
+                rel="noopener"
+                href="https://ui-design-com.netlify.app/"
+                target="_blank"
+                >click to Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="full name" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Nummber" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="email" placeholder="Email subject" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Type your message"
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box new-btn padding">
+          <a href="#" class="btn">Submit</a>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>copyright &copy; 2023 by Tushar | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-icontop">
+        <a class="foot" href="#"><i class="arrow fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+    <script src="newscript.js"></script>
+  </body>
+</html>

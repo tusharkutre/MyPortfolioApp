@@ -1,0 +1,96 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    /* background-color: yellowgreen; */
+  
+    /* z-index: 1; */
+}
+.header.sticky
+{
+    z-index: 5;
+    background-color: #ffffff10;
+    backdrop-filter: blur(42px);
+    -webkit-backdrop-filter: blur(42px);
+}
+.logo
+{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar>a
+{
+    text-decoration: none;
+    font-size: 2.0rem;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-left: 1.5rem;
+    transition: .3s;
+}
+.navbar>a:hover,
+.navbar a.active
+{
+    color: var(--main-color);
+}
+
+#menu-icon
+{
+    font-size: 3.0rem;
+    cursor: pointer;
+    color: var(--text-color);
+    display: none;
+}
+.header>.navbar>.new:hover
+{
+    transform: translateY(-10px);
+}
+.moon{
+    width: 50px;
+    cursor: pointer;
+}
+body{
+    transition: 1s;
+}
+/* body.white
+{
+    background-color: white;
+    color: black;
+}
+body.black
+{
+    background-color: black;
+    color: white;
+} */
+
+/* .logo.textBlack{
+    color: black;
+}
+.logo.textwhite{
+    color: white;
+} */
+
+/* finally achieved */
+/* Dark mode styles */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark-mode .logo{
+    color: white;
+}
+
+/* White mode styles */
+.white-mode {
+    background-color: white;
+    color: black;
+}
+.white-mode .logo{
+    color: black;
+}
