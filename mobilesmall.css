@@ -21,11 +21,12 @@
     {
         display: none;
     }
-    .header>.logo.apply
+    .header>.logo
     {
         width: 100%;
         text-align: left;
         font-size: 3.0rem;
+        color: aqua;
     }
     .menu{
         width: 60px;
