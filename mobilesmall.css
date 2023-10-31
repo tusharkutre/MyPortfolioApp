@@ -21,6 +21,9 @@
         text-align: left;
         font-size: 3.0rem;
     }
+    .skills-column .title{
+        font-size: 2.05rem;
+    }
     .skills-box>.front-end{
         display: grid;
         grid-template-columns: repeat(auto-fill,100px);

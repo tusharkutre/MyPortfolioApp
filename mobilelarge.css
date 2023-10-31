@@ -27,6 +27,9 @@
         text-align: left;
         font-size: 3.5rem;
     }
+    .skills-column .title{
+        font-size: 2.2rem;
+    }
     .menu{
         width: 60px;
         height: 50px;
@@ -175,20 +178,20 @@
 }
 .skills-box>.front-end{
     display: grid;
-    grid-template-columns: repeat(auto-fill,100px);
+    grid-template-columns: repeat(auto-fill,130px);
     column-gap: 50px;
     row-gap: 40px;
     align-items: center;
     justify-content: center;
 }
 .skills-box>.front-end>.mobile-size{
-  width: 100%;
+  width: 120%;
 }
 .skills-box>.front-end>.tailwind-size{
     width: 90%;
 }
 .html-logo{
-    transition:0.5s  ease ;
+    transition:0.5s  ease;
 }
 .html-logo:hover{
     transform: perspective(400px) translateZ(100px);
