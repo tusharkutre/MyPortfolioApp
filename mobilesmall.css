@@ -70,9 +70,9 @@
         animation: logo-spin infinite 20s linear;
     }
     
-    .logo1:hover {
+    /* .logo1:hover {
         filter: drop-shadow(0 0 24px #df71fd);
-    }
+    } */
     
     .logo1.react:hover {
         filter: drop-shadow(0 0 24px #61dafbaa);
