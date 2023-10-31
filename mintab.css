@@ -80,4 +80,70 @@ nav ul {
     color: #fff;
     font-weight: bold;
 }
+
+.skills-box>.front-end{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,90px);
+    column-gap: 70px;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.skills-box>.front-end>.mobile-size{
+  width: 150%;
+}
+.skills-box>.front-end>.tailwind-size{
+    width: 100%;
+}
+.html-logo{
+    transition:0.5s  ease;
+}
+.html-logo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 14px #ff9100);
+}
+.css-logo{
+    transition:0.5s  ease ;
+}
+.css-logo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 14px #0095ff);
+}
+.tail-logo{
+    transition:0.5s  ease ;
+}
+.tail-logo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 14px #0095ff);
+}
+.jslogo{
+    transition: 0.5s ease;
+}
+.jslogo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 24px #edfd71);
+}
+.logo1 {
+    height: 6em;
+    will-change: filter;
+    transition: filter 300ms;
+    animation: logo-spin infinite 20s linear;
+}
+
+.logo1:hover {
+    filter: drop-shadow(0 0 24px #df71fd);
+}
+
+.logo1.react:hover {
+    filter: drop-shadow(0 0 24px #61dafbaa);
+}
+/* created an react animation */
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 }
