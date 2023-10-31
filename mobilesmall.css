@@ -70,10 +70,11 @@
         animation: logo-spin infinite 20s linear;
     }
     .logo1:hover {
-        filter: drop-shadow(0 0 24px #df71fd);
+        transform: perspective(400px) translateZ(100px);
+        filter: drop-shadow(0 0 14px #df71fd);
     }
     .logo1.react:hover {
-        filter: drop-shadow(0 0 24px #61dafbaa);
+        filter: drop-shadow(0 0 14px #61dafbaa); 
     }
     /* created an react animation */
     @keyframes logo-spin {
