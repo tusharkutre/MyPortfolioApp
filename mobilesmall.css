@@ -3,11 +3,6 @@
 /* media-queries */
 @media (max-width: 320px) {
     /* header-section */
-    nav
-    {
-        /* visibility: hidden; */
-        display: none;
-    }
     .navbar a{
         text-align: center;
         padding-block: 8px;
@@ -17,8 +12,7 @@
     {
         overflow: hidden;
     }
-    .right-box-1>.boi
-    {
+    nav{
         display: none;
     }
     .header>.logo
@@ -26,6 +20,16 @@
         width: 100%;
         text-align: left;
         font-size: 3.0rem;
+    }
+    .skills-box>.front-end{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,100px);
+        column-gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .skills-box>.front-end>.mobile-size{
+      width: 150%;
     }
     .menu{
         width: 60px;

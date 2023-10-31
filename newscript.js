@@ -53,16 +53,29 @@ menu.onclick = function()
 
 function toggleSidebar() {
     var sidebar = document.querySelector(".sidebar");
-    if (sidebar.style.width === "320px") {
-        sidebar.style.width = "0";
-
-    } else {
-        sidebar.style.width = "320px";
-    }
+        if (sidebar.style.width === "320px") {
+            sidebar.style.width = "0";//closed
+            
+        } else {
+            sidebar.style.width = "320px";//open
+        }
+     
     const toggle = document.querySelector('.toggle-button')
     toggle.classList.toggle('active')
     toggle.classList.add('apply')
+
+    }
     
-    // const mobile = document.querySelector('.mobilemode')
-    // mobile.appendChild('apply')
-}
+
+// const menuToggle = document.getElementById('menuToggle');
+// const menu = document.getElementById('menu');
+
+// menuToggle.addEventListener('click', () => {
+//     menu.classList.toggle('active');
+// });
+
+// window.addEventListener('resize', () => {
+//     if (window.innerWidth > 768) {
+//         menu.classList.remove('active');
+//     }
+// });
