@@ -58,26 +58,12 @@
 body{
     transition: 1s;
 }
-/* body.white
-{
-    background-color: white;
-    color: black;
-}
-body.black
-{
-    background-color: black;
-    color: white;
-} */
-
-/* .logo.textBlack{
-    color: black;
-}
-.logo.textwhite{
-    color: white;
-} */
 
 /* finally achieved */
 /* Dark mode styles */
+ul>.textBlack{
+    color: black;
+}
 .dark-mode {
     background-color: black;
     color: white;

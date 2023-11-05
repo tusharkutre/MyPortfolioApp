@@ -22,6 +22,7 @@ const logo = document.querySelector('.logo');
 
 // Get references to the select element and the body element
 const selectElement = document.getElementById('themes');
+const ul = document.querySelector('ul');
 const bodyElement = document.body;
 
 // Add an event listener to the select element
@@ -39,6 +40,7 @@ selectElement.addEventListener('change', function () {
 
     } else if (selectedValue === 'white') {
         // Apply the white mode class
+        ul.classList.toggle('textBlack')
         logo.classList.toggle('textBlack')
         bodyElement.className = 'white-mode';
     }
@@ -65,7 +67,6 @@ function toggleSidebar() {
     toggle.classList.add('apply')
 
     }
-    
 
 // const menuToggle = document.getElementById('menuToggle');
 // const menu = document.getElementById('menu');
