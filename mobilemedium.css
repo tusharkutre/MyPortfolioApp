@@ -196,6 +196,27 @@
     transform: perspective(400px) translateZ(100px);
     filter: drop-shadow(0 0 14px #ff9100);
 }
+.node-logo{
+    transition:0.5s  ease;
+}
+.node-logo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 14px #00ff11ba);
+}
+.mongo-logo{
+    transition:0.5s  ease;
+}
+.mongo-logo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 14px #d9e4dbba);
+}
+.mongo-logo{
+    transition:0.5s  ease;
+}
+.ex-logo:hover{
+    transform: perspective(400px) translateZ(100px);
+    filter: drop-shadow(0 0 14px #17ed03);
+}
 .css-logo{
     transition:0.5s  ease ;
 }
