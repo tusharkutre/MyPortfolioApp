@@ -6,6 +6,7 @@ window.onscroll = () =>{
 
     const sidebar = document.querySelector('.sidebar');
     sidebar.style.height = "100vh"
+
 }
 
 const body = document.body;
@@ -13,11 +14,6 @@ const body = document.body;
 const moon = document.querySelector('.moon');
 const logo = document.querySelector('.logo');
 
-// moon.addEventListener("click",function(e){
-// //  document.body.classList.toggle('white')
-//  document.body.classList.toggle('white');
-//     logo.classList.toggle('textBlack')
-// })
 
 
 // Get references to the select element and the body element
@@ -46,15 +42,18 @@ selectElement.addEventListener('change', function () {
     }
 });
 
-const menu = document.getElementById("menu")
-menu.onclick = function()
-{
-    menu.classList.toggle("openmenu")
-    menu.classList.toggle("active")
-}
+function mySidebar(){
+    const menu = document.getElementById("menu");
+    const sidebar = document.querySelector(".sidebar");
+
+    menu.addEventListener("click",function(){
+        menu.appendChild(sidebar)
+    })
+    }
 
 function toggleSidebar() {
     var sidebar = document.querySelector(".sidebar");
+   
         if (sidebar.style.width === "320px") {
             sidebar.style.width = "0";//closed
             
@@ -67,7 +66,14 @@ function toggleSidebar() {
     toggle.classList.add('apply')
 
     }
-
+    
+    const icons = document.querySelectorAll('.icon');
+    icons.forEach (icon => {  
+      icon.addEventListener('click', (event) => {
+        icon.classList.toggle("open");
+      });
+    });
+    
 // const menuToggle = document.getElementById('menuToggle');
 // const menu = document.getElementById('menu');
 
