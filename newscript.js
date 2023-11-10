@@ -73,16 +73,12 @@ function toggleSidebar() {
         icon.classList.toggle("open");
       });
     });
-    
-// const menuToggle = document.getElementById('menuToggle');
-// const menu = document.getElementById('menu');
 
-// menuToggle.addEventListener('click', () => {
-//     menu.classList.toggle('active');
-// });
+    // const github = document.querySelector('.btn')
 
-// window.addEventListener('resize', () => {
-//     if (window.innerWidth > 768) {
-//         menu.classList.remove('active');
-//     }
-// });
+    // github.addEventListener("click",function(){
+    //     // open = true;
+    //     if(window.open){
+    //         window.open('https://github.com/tusharkutre')
+    //     };
+    // });
