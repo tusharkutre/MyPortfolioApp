@@ -5,6 +5,15 @@
   /* .skills-box{
     margin-left: -60px;
   } */
+  .mobilemode{
+    display: flex;
+    background-color: #df71fd26;
+    padding: 10px;
+    border-radius: 10px;
+    column-gap: 12px;
+    align-items: center;
+    font-size: 13px;
+}
 .skills-box>.front-end{
   display: grid;
   grid-template-columns: repeat(auto-fill,150px);
