@@ -46,6 +46,7 @@ function mySidebar(){
     const menu = document.getElementById("menu");
     const sidebar = document.querySelector(".sidebar");
 
+    sidebar.style.border = "2px solid white"
     menu.addEventListener("click",function(){
         menu.appendChild(sidebar)
     })
