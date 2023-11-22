@@ -74,11 +74,13 @@ function toggleSidebar() {
       });
     });
 
-    // const github = document.querySelector('.btn')
-
-    // github.addEventListener("click",function(){
-    //     // open = true;
-    //     if(window.open){
-    //         window.open('https://github.com/tusharkutre')
-    //     };
-    // });
+    function redirectToHireMe(event) {
+        event.preventDefault();
+        // Replace 'hire-me.html' with the actual URL you want to redirect to
+        window.location.href = 'https://github.com/tusharkutre';
+      }
+    
+      function redirectToLetsTalk() {
+        // Replace 'lets-talk.html' with the actual URL you want to redirect to
+        window.location.href = 'https://github.com/tusharkutre';
+      }

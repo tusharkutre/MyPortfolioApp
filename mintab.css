@@ -16,6 +16,12 @@
     padding: 0;
     position: relative;
 }
+.whitebox{
+    display: flex;
+    background-color: #df71fd26;
+    padding: 10px;
+    border-radius: 10px;
+}
 .mobilemode{
     display: flex;
     background-color: #df71fd26;

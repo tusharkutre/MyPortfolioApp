@@ -2,7 +2,12 @@
 /* mobile device view */
 /* media-queries */
 @media (max-width: 320px) {
-    
+    .whitebox{
+        display: flex;
+        background-color: #df71fd26;
+        padding: 10px;
+        border-radius: 10px;
+    }
     /* header-section */
     .navbar a{
         text-align: center;

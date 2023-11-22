@@ -3,6 +3,12 @@
 /* media-queries */
 @media (min-width: 321px) and (max-width:375px) {
     /* header-section */
+    .whitebox{
+        display: flex;
+        background-color: #df71fd26;
+        padding: 10px;
+        border-radius: 10px;
+    }
     nav
     {
         /* visibility: hidden; */

@@ -1,6 +1,25 @@
 @media (min-width: 1000px) and (max-width:1545px){
+  .whitebox{
+    display: flex;
+    background-color: #df71fd26;
+    padding: 10px;
+    border-radius: 10px;
+}
   .btn-box{
     margin: 0;
+  }
+  .navbar{
+    background-color: #df71fd26;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .navbar>.active{
+    margin-left: 0;
+  }
+  .navbar>a:hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.626);
+    padding: 5px;
   }
   /* .skills-box{
     margin-left: -60px;
