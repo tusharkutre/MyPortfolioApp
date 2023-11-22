@@ -84,3 +84,17 @@ function toggleSidebar() {
         // Replace 'lets-talk.html' with the actual URL you want to redirect to
         window.location.href = 'https://github.com/tusharkutre';
       }
+
+        // Get the sidebar element
+        var sidebar = document.getElementById("sidebar");
+
+        // Get all anchor tags inside the sidebar
+        var anchorTags = sidebar.getElementsByTagName("a");
+
+        // Add click event listener to each anchor tag
+        for (var i = 0; i < anchorTags.length; i++) {
+            anchorTags[i].addEventListener("click", function () {
+                // Close the sidebar when an anchor tag is clicked
+                sidebar.style.width = "0px";
+            });
+        }
