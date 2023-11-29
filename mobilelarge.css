@@ -3,6 +3,18 @@
 /* media-queries */
 @media (min-width: 376px) and (max-width:425px) {
     /* header-section */
+    .icons{
+        position: absolute;
+        display: flex;
+        column-gap: 6px;
+        justify-content: flex-start;
+    }
+    .icons .likedin-img{
+        width: 20%;
+    }
+  .icons .git-img{
+    width: 20%;
+    }
     .whitebox{
         display: flex;
         background-color: #df71fd26;

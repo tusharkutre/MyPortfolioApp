@@ -1,4 +1,10 @@
 @media (min-width: 426px) and (max-width:768px){
+    .icons .likedin-img{
+        width: 20%;
+    }
+  .icons .git-img{
+    width: 20%;
+    }
     nav
     {
         /* visibility: hidden; */
@@ -118,7 +124,6 @@ footer
     transition: 0.5s;
     padding-top: 60px;
     color: white;
-    z-index: 0;
 }
 
 .sidebar ul {
