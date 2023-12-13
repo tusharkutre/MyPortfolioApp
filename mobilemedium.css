@@ -8,10 +8,14 @@
         display: flex;
         column-gap: 6px;
         justify-content: flex-start;
+        cursor: pointer;
     }
     .icons .likedin-img{
         width: 20%;
     }
+    .icons .insta-img{
+        width: 20%;
+        }
   .icons .git-img{
     width: 20%;
     }

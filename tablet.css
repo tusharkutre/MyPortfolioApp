@@ -1,9 +1,26 @@
 @media (min-width: 426px) and (max-width:768px){
+    .icons{
+        position: absolute;
+        display: flex;
+        column-gap: 6px;
+        justify-content: center;
+    }
     .icons .likedin-img{
-        width: 20%;
+        width: 13%;
     }
   .icons .git-img{
-    width: 20%;
+    width: 13%;
+    cursor: pointer;
+    }
+    .icons .insta-img{
+        width: 13%;
+        }
+  .icons .git-img:hover{
+    background-color: white;
+    }
+    .connect-me{
+        margin-top: 25px;
+        font-size: 2rem;
     }
     nav
     {
