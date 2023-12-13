@@ -19,6 +19,10 @@
     .icons .git-img{
         width: 20%;
         }
+        .connect-me{
+            margin-top: 25px;
+            font-size: medium;
+        }
     .whitebox{
         display: flex;
         background-color: #df71fd26;

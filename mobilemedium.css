@@ -19,6 +19,10 @@
   .icons .git-img{
     width: 20%;
     }
+    .connect-me{
+        margin-top: 15px;
+        font-size: medium;
+    }
     .header>.logo
     {
         width: 100%;
