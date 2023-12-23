@@ -11,9 +11,29 @@
    .line-spacing{
     line-height: 20px;
    }
-   .icons .insta-img{
-    width: 20%;
+   .icons{
+    position: absolute;
+    display: flex;
+    column-gap: 6px;
+    justify-content: left;
+}
+.icons .likedin-img{
+    width: 13%;
+}
+.icons .git-img{
+width: 13%;
+cursor: pointer;
+}
+.icons .insta-img{
+    width: 13%;
     }
+.icons .git-img:hover{
+background-color: white;
+}
+.connect-me{
+    margin-top: 25px;
+    font-size: 2rem;
+}
    body {
     margin: 0;
     padding: 0;

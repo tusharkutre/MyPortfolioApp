@@ -1,8 +1,37 @@
 @media (min-width: 1000px) and (max-width:1545px){
+  .icons{
+    position: absolute;
+    display: flex;
+    column-gap: 6px;
+    justify-content: left;
+}
+.icons .likedin-img{
+    width: 8%;
+}
+.icons .git-img{
+width: 8%;
+cursor: pointer;
+}
+.icons .insta-img{
+    width: 8%;
+    }
+.icons .git-img:hover{
+background-color: white;
+}
+.icons .insta-img:hover{
+background-color: white;
+}
+.icons .likedin-img:hover{
+background-color: white;
+}
+.connect-me{
+    margin-top: 25px;
+    font-size: 2rem;
+}
   .whitebox{
     display: flex;
-    background-color: #df71fd26;
-    padding: 10px;
+    background-color: #df83f836;
+    padding: 0px;
     border-radius: 10px;
 }
   .btn-box{
