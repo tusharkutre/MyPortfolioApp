@@ -17,12 +17,15 @@ cursor: pointer;
     }
 .icons .git-img:hover{
 background-color: white;
+cursor: pointer;
 }
 .icons .insta-img:hover{
 background-color: white;
+cursor: pointer;
 }
 .icons .likedin-img:hover{
 background-color: white;
+cursor: pointer;
 }
 .connect-me{
     margin-top: 25px;
