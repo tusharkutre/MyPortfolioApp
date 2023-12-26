@@ -97,9 +97,15 @@ for (var i = 0; i < anchorTags.length; i++) {
 const linkedIn = document.querySelector(".likedin-img");
 
 linkedIn.addEventListener("click",function(){
-    // let audio = new Audio();
-    // audio.src = "./assets/sound2.mp3"
+    alert("you are redirecting to linkedIn")
     playSound("sound.wav")
+    window.location.href = "https://www.linkedin.com/in/tushar-kutre-578983233/";
+})
+
+const gitHub = document.querySelector(".git-img");
+
+gitHub.addEventListener("click",function(){
+    playSound("sound2.mp3")
     window.location.href = "https://github.com/tusharkutre";
 })
 
