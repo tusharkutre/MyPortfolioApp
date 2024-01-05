@@ -75,10 +75,10 @@ cursor: pointer;
   justify-content: center;
 }
 .skills-box>.front-end>.mobile-size{
-width: 100%;
+width: 70%;
 }
 .skills-box>.front-end>.tailwind-size{
-  width: 90%;
+  width: 70%;
 }
 .html-logo{
   transition:0.5s  ease;
@@ -87,12 +87,18 @@ width: 100%;
   transform: perspective(400px) translateZ(100px);
   filter: drop-shadow(0 0 14px #ff9100);
 }
+.html-logo.whitebox:hover{
+ background: none;
+}
 .css-logo{
   transition:0.5s  ease ;
 }
 .css-logo:hover{
   transform: perspective(400px) translateZ(100px);
   filter: drop-shadow(0 0 14px #0095ff);
+}
+.css-logo.whitebox:hover{
+ background: none;
 }
 .tail-logo{
   transition:0.5s  ease ;
@@ -101,12 +107,18 @@ width: 100%;
   transform: perspective(400px) translateZ(100px);
   filter: drop-shadow(0 0 14px #0095ff);
 }
+.tail-logo.whitebox:hover{
+background: none;
+}
 .jslogo{
   transition: 0.5s ease;
 }
 .jslogo:hover{
   transform: perspective(400px) translateZ(100px);
   filter: drop-shadow(0 0 24px #edfd71);
+}
+.jslogo.whitebox:hover{
+background: none;
 }
 .logo1 {
   height: 6em;

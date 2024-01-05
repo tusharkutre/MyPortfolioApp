@@ -22,7 +22,7 @@
  });
 
  // Detect mobile screen and apply initial theme
- if (window.innerWidth <= 768) {
+ if (window.innerWidth <= 425) {
    // Set the initial theme for mobile screens
-   applyTheme('default'); // You can set the default theme here
+   applyTheme('dark'); // You can set the default theme here
  }
