@@ -2,6 +2,27 @@
 /* mobile device view */
 /* media-queries */
 @media (min-width: 321px) and (max-width:375px) {
+    .html-logo.whitebox:hover{
+        background: none;
+       }
+       .css-logo.whitebox:hover{
+        background: none;
+       }
+    .tail-logo.whitebox:hover{
+        background: none;
+        }
+        .jslogo.whitebox:hover{
+            background: none;
+            }
+            .ex-logo.whitebox:hover{
+                background: none;
+            }
+            .node-logo.whitebox:hover{
+                background: none;
+              }
+              .mongo-logo.whitebox:hover{
+                background: none;
+            }
     .sidebar a:hover {
         color: #f1f1f1;
       }

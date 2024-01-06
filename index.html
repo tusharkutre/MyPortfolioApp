@@ -11,7 +11,7 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="sidebar.css" />
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="education.css" />
@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="mobilesmall.css" />
-    <link rel="stylesheet" href="mobilemedium.css">
-    <link rel="stylesheet" href="mobilelarge.css">
+    <link rel="stylesheet" href="mobilemedium.css" />
+    <link rel="stylesheet" href="mobilelarge.css" />
     <link rel="stylesheet" href="tablet.css" />
     <link rel="stylesheet" href="laptop.css" />
     <link rel="stylesheet" href="mintab.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/a861292912.js"
@@ -37,48 +37,49 @@
 
     <!-- header components/section -->
     <header class="header">
-      <h3 class="logo">MyPortfolio
+      <h3 class="logo" id="logo">
+        MyPortfolio
         <i class="fa-solid fa-code"></i>
       </h3>
-      
-    <div class="icon nav-icon-5 " onclick="toggleSidebar()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
 
-    <div class="sidebar glass" id="sidebar">
+      <div class="icon nav-icon-5" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sidebar glass" id="sidebar">
         <ul class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about" class="new">About</a>
-            <a href="#education" class="new">Education</a>
-            <a href="#skills" class="new">Skills</a>
-            <a href="#projects" class="new">Projects</a>
-            <a href="#contact" class="new">Contact</a>
+          <a href="#home" class="active">Home</a>
+          <a href="#about" class="new">About</a>
+          <a href="#education" class="new">Education</a>
+          <a href="#skills" class="new">Skills</a>
+          <a href="#projects" class="new">Projects</a>
+          <a href="#contact" class="new">Contact</a>
         </ul>
-        <div class="theme-switcher whitebox" id="themeSwitcher">&#127769;</div>
-    </div>
+        <div class="theme-switcher  whitebox" id="themeSwitcher">Change Theme&#127769;</div>
+      </div>
 
-    <nav>
-      <ul class="menu navbar" id="menu">
-        <a href="#home" class="active">Home</a>
-        <a href="#about" class="new">About</a>
-        <a href="#education" class="new">Education</a>
-        <a href="#skills" class="new">Skills</a>
-        <a href="#projects" class="new">Projects</a>
-        <a href="#contact" class="new">Contact</a>
-      </ul>
-  </nav>
+      <nav>
+        <ul class="menu navbar" id="menu">
+          <a href="#home" class="active">Home</a>
+          <a href="#about" class="new">About</a>
+          <a href="#education" class="new">Education</a>
+          <a href="#skills" class="new">Skills</a>
+          <a href="#projects" class="new">Projects</a>
+          <a href="#contact" class="new">Contact</a>
+        </ul>
+      </nav>
 
-    <div class="mobilemode">
-      <label for="cars">Choose a Theme:</label>
+      <div class="mobilemode">
+        <label for="cars">Choose a Theme:</label>
 
-      <select title="dark" name="cars" id="themes">
+        <select title="dark" name="cars" id="themes">
           <option value="default" id="default">Default</option>
           <option value="white" id="whitemode">White</option>
           <option value="dark" id="dark">Dark</option>
-      </select>
-  </div>
+        </select>
+      </div>
 
       <i class="fa-solid fa-bars" id="menu-icon"></i>
     </header>
@@ -106,19 +107,15 @@
             "
             >code</span
           >
-          very enthusiatically and dedicatedly."Seeking for a Front-end developer job/role".
+          very enthusiatically and dedicatedly."Seeking for a Front-end
+          developer job/role".
         </p>
 
-        <div class="btn-box">
-          <a href="https://github.com/tusharkutre" class="btn">Let's Talk</a>
-          <a href="https://github.com/tusharkutre" class="btn">Let's Talk</a>
-        </div>
-        
         <h3 class="connect-me">Connect me on:</h3>
         <div class="icons">
-          <img class="likedin-img whitebox" src="img/linked-in.png" alt="">         
-          <img class="insta-img whitebox" src="img/insta3d2.png" alt="">
-          <img class="git-img whitebox" src="img/git.png" alt="">
+          <img class="likedin-img whitebox" src="img/linked-in.png" alt="" />
+          <img class="insta-img whitebox" src="img/insta3d2.png" alt="" />
+          <img class="git-img whitebox" src="img/git.png" alt="" />
         </div>
       </div>
 
@@ -151,7 +148,9 @@
       </div>
 
       <div class="btn-box new-btn">
-        <a href="assets/TusharResume23.pdf" target="_blank" class="btn">View Resume</a>
+        <a href="assets/TusharResume23.pdf" target="_blank" class="btn"
+          >View Resume</a
+        >
       </div>
     </section>
 
@@ -250,7 +249,6 @@
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -267,23 +265,53 @@
 
           <div class="skills-box">
             <div class="front-end">
-              <img class="mobile-size html-logo whitebox" src="img/html4.png" alt="">
-              <img class="mobile-size css-logo whitebox" src="img/css.png" alt="">
-              <img class="mobile-size jslogo whitebox" src="img/javascript-removebg-preview.png" alt="">
-              <img class="logo1 mobile-size" src="img/react.svg" alt="React Logo">
-              <img class="mobile-size tailwind-size whitebox tail-logo" src="img/tailwind2.png" alt="">
+              <img
+                class="mobile-size html-logo whitebox"
+                src="img/html4.png"
+                alt=""
+              />
+              <img
+                class="mobile-size css-logo whitebox"
+                src="img/css.png"
+                alt=""
+              />
+              <img
+                class="mobile-size jslogo whitebox"
+                src="img/javascript-removebg-preview.png"
+                alt=""
+              />
+              <img
+                class="logo1 mobile-size"
+                src="img/react.svg"
+                alt="React Logo"
+              />
+              <img
+                class="mobile-size tailwind-size whitebox tail-logo"
+                src="img/tailwind2.png"
+                alt=""
+              />
             </div>
 
             <h3 class="title">Back-end Stack</h3>
             <div class="front-end Back-end-skills">
-              <img class="mobile-size node-logo whitebox" src="img/node.png" alt="">
-              <img class="mobile-size ex-logo whitebox" src="img/express2.png" alt="">
-              <img class="mobile-size mongo-logo whitebox" src="img/mongodb.png" alt="">
+              <img
+                class="mobile-size node-logo whitebox"
+                src="img/node.png"
+                alt=""
+              />
+              <img
+                class="mobile-size ex-logo whitebox"
+                src="img/express2.png"
+                alt=""
+              />
+              <img
+                class="mobile-size mongo-logo whitebox"
+                src="img/mongodb.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
-
-       
       </div>
     </section>
 
@@ -387,7 +415,7 @@
     </section>
 
     <!-- footer section -->
-    <footer class="footer ">
+    <footer class="footer">
       <div class="footer-text">
         <p>copyright &copy; 2023 by Tushar | All Rights Reserved.</p>
       </div>
@@ -397,6 +425,6 @@
       </div>
     </footer>
     <script src="newscript.js"></script>
-    <script src="dark.js"></script>
+    <!-- <script src="dark.js"></script> -->
   </body>
 </html>

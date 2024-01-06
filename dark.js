@@ -1,6 +1,7 @@
  // JavaScript code for mobile screen
  var selectElement2 = document.getElementById('themes');
  var themeSwitcher = document.getElementById('themeSwitcher');
+ var logoElement = document.getElementById('logo'); 
 
  function applyTheme(theme) {
    // Add logic to apply the selected theme
@@ -20,7 +21,7 @@
    var newTheme = currentTheme === 'default' ? 'dark' : 'default';
    applyTheme(newTheme);
  });
-
+ 
  // Detect mobile screen and apply initial theme
  if (window.innerWidth <= 425) {
    // Set the initial theme for mobile screens
