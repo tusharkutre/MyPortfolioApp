@@ -2,6 +2,17 @@
 /* mobile device view */
 /* media-queries */
 @media (max-width: 320px) {
+    body{
+        background-color: black;
+        color: white;
+    }
+    body.active{
+        background-color: white;
+        color: black;
+    }
+    .header>.logo.active{
+        color: black;
+    }
     .right-box-1 .boi{
         display: none;
     }
@@ -52,24 +63,7 @@
       .theme-switcher:hover {
         color: #f1f1f1;
       }
-  
-      /* Default Theme */
-      body.default {
-        background-color: white;
-        color: black;
-      }
-  
-      /* White Theme */
-      body.white {
-        background-color: #fff;
-        color: #333;
-      }
-  
-      /* Dark Theme */
-      body.dark {
-        background-color: black;
-        color: #fff;
-      }
+
     .icons{
         position: absolute;
         display: flex;
