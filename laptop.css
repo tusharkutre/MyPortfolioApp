@@ -1,5 +1,21 @@
 @media (min-width: 1000px) and (max-width:1545px){
-  
+  .Back-end-skills>.node-logo{
+    padding: 10px;
+  }
+  .Back-end-skills>.ex-logo{
+    padding: 10px;
+  }
+  .Back-end-skills>.mongo-logo{
+    padding: 10px;
+  }
+
+  .front-end>.jslogo{
+    padding: 15px;
+  }
+.skills-column .title {
+  font-size: 2.50rem;
+  margin-block: 30px;
+}
   .icons{
     position: absolute;
     display: flex;
@@ -34,7 +50,7 @@ cursor: pointer;
 }
   .whitebox{
     display: flex;
-    background-color: #df83f836;
+    background-color: #75757642;
     padding: 0px;
     border-radius: 10px;
 }
@@ -72,7 +88,7 @@ cursor: pointer;
   column-gap: 20px;
   row-gap: 40px;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .skills-box>.front-end>.mobile-size{
 width: 70%;
