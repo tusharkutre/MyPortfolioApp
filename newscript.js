@@ -1,12 +1,50 @@
-// onscroll is the event handler which handles some events when some action is performed
+const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const offset = 70;
+    const targetPosition = element.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  }
+};
+
+const toggleDarkMode = () => {
+  document.body.classList.toggle("dark");
+};
+
+let sidebarOpen = false;
+const sidebar2 = document.querySelector(".sidebar");
+
 window.onscroll = () => {
   // sticky header
   let header = document.querySelector(".header");
   header.classList.toggle("sticky", window.scrollY > 100);
 
-  const sidebar = document.querySelector(".sidebar");
-  sidebar.style.height = "100vh";
+  if (sidebar2.classList.contains("open")) {
+    sidebarOpen = true;
+    sidebar2.classList.add("sidebar-open");
+  } else {
+    sidebar2.classList.remove("sidebar-open");
+  }
 };
+
+sidebar2.addEventListener("click", (event) => {
+  if (event.target.matches(".sidebar2 a")) {
+    sidebarOpen = false;
+    sidebar2.classList.remove("open", "sidebar-open");
+    const href = event.target.getAttribute("href");
+    scrollToSection(href.substring(1));
+  } else if (event.target.matches(".dark-mode-button")) {
+    toggleDarkMode();
+  }
+});
+
+sidebar2.addEventListener("click", () => {
+  sidebar2.classList.toggle("open");
+});
+
 
 const body = document.body;
 // queryselector for selecting only the classes
