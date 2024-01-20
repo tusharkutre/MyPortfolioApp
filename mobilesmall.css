@@ -122,15 +122,16 @@
         justify-content: flex-start;
         margin-top: 20px;
     }
-    .icons .likedin-img{
-        width: 23%;
-    }
     .connect-me{
         margin-top: 15px;
         font-size: medium;
     }
+    .icons .likedin-img{
+        width: 23%;
+    }
   .icons .git-img{
     width: 23%;
+    background-color: white;
     }
   .icons .insta-img{
     width: 23%;

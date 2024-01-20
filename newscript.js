@@ -45,7 +45,6 @@ sidebar2.addEventListener("click", () => {
   sidebar2.classList.toggle("open");
 });
 
-
 const body = document.body;
 // queryselector for selecting only the classes
 const moon = document.querySelector(".moon");
@@ -85,13 +84,20 @@ function mySidebar() {
     menu.appendChild(sidebar);
   });
 }
-
+    
+// if(window<innerWidth <= 425)
+// {
+//   body.addEventListener("click",function(){
+//       sidebar.style.width = "0";
+//     })
+// }
 function toggleSidebar() {
   var sidebar = document.querySelector(".sidebar");
 
   if (sidebar.style.width === "320px") {
     sidebar.style.width = "0"; //closed
-  } else {
+  } else 
+  {
     sidebar.style.width = "320px"; //open
   }
 

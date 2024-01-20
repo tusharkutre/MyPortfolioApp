@@ -1,4 +1,7 @@
 @media (min-width: 426px) and (max-width:768px){
+    #themeSwitcher{
+        visibility: hidden;
+    }
     .icons{
         position: absolute;
         display: flex;
@@ -24,7 +27,6 @@
     }
     nav
     {
-        /* visibility: hidden; */
         display: none;
     }
     body
@@ -33,6 +35,7 @@
     }
     .right-box-1
     {
+        z-index: -1;
         padding-top: 90px;
     }
     .navbar{
