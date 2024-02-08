@@ -1,4 +1,7 @@
 @media (min-width: 769px) and (max-width:1024px){
+    #themes{
+        color: black;
+    }
     .right-box-1 .boi{
         z-index: -1;
     }

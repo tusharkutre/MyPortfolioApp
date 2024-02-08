@@ -53,6 +53,7 @@ const logo = document.querySelector(".logo");
 // Get references to the select element and the body element
 const selectElement = document.getElementById("themes");
 const ul = document.querySelector("ul");
+const burger = document.querySelector(".icon")
 const bodyElement = document.body;
 
 // Add an event listener to the select element
@@ -70,6 +71,7 @@ selectElement.addEventListener("change", function () {
   } else if (selectedValue === "white") {
     // Apply the white mode class
     ul.classList.toggle("textBlack");
+    burger.classList.toggle("textBlack");
     logo.classList.toggle("textBlack");
     bodyElement.className = "white-mode";
   }
@@ -141,7 +143,6 @@ for (var i = 0; i < anchorTags.length; i++) {
 const linkedIn = document.querySelector(".likedin-img");
 
 linkedIn.addEventListener("click",function(){
-    alert("you are redirecting to linkedIn")
     playSound("sound.wav")
     window.location.href = "https://www.linkedin.com/in/tushar-kutre-578983233/";
 })

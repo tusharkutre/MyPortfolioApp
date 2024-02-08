@@ -1,4 +1,13 @@
 @media (min-width: 426px) and (max-width:768px){
+    .icon.textBlack{
+        color: black;
+    }
+    .icon{
+        padding: 10px;
+    }
+    #themes{
+        color: black;
+    }
     #themeSwitcher{
         visibility: hidden;
     }
@@ -47,9 +56,7 @@
     }
     .header>.logo
     {
-        width: 100%;
-        text-align: left;
-        font-size: 2.5rem;
+       display: none;
     }
     .home
     {
@@ -78,7 +85,7 @@
     .header{
         height: 100px;
         display: flex;
-        justify-content: space-between;
+        justify-content:end;
         align-items: center;
     }
       .btn-box 
@@ -98,7 +105,7 @@
    padding-bottom: 5rem;
    display: flex;
    flex-direction: column;
-        /* background: var(--secondary-bg-color); */
+    /* background: var(--secondary-bg-color); */
      }
 .contact>form{
     max-width: 70rem;
@@ -233,11 +240,9 @@ footer
     transition: filter 300ms;
     animation: logo-spin infinite 20s linear;
 }
-
 .logo1:hover {
     filter: drop-shadow(0 0 24px #df71fd);
 }
-
 .logo1.react:hover {
     filter: drop-shadow(0 0 24px #61dafbaa);
 }
