@@ -1,4 +1,23 @@
 @media (min-width: 769px) and (max-width:1024px){
+    .contact>form{
+        display: grid;
+    gap: 1.5rem;
+    }
+    .input-box label{
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translateY(-50%);
+        font-size: 1.4rem;
+        color:#98a3b9 ;
+        pointer-events: none;
+        transition: all .3s ease-in-out;
+    }
+    .input-box input:focus~label,
+.input-box input:valid~label{
+    top: -10px;
+    color: white;
+}
     #themes{
         color: black;
     }

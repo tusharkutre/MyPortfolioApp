@@ -154,6 +154,13 @@ gitHub.addEventListener("click",function(){
     window.location.href = "https://github.com/tusharkutre";
 })
 
+const insta = document.querySelector(".insta-img");
+
+insta.addEventListener("click",function(){
+    playSound("sound2.mp3")
+    window.location.href = "https://www.instagram.com/mr.tushar727/";
+})
+
 function playSound(audioName){
   let audio = new Audio(audioName);
   audio.play();
