@@ -1,4 +1,12 @@
 @media (min-width: 769px) and (max-width:1024px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem 9%;
+        background: #9900ff;
+    }
     .contact>form{
         display: grid;
     gap: 1.5rem;
@@ -153,7 +161,7 @@ nav ul {
     column-gap: 70px;
     row-gap: 40px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .skills-box>.front-end>.mobile-size{
   width: 150%;

@@ -117,7 +117,7 @@ cursor: pointer;
   column-gap: 20px;
   row-gap: 40px;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-between;
 }
 .skills-box>.front-end>.mobile-size{
 width: 70%;

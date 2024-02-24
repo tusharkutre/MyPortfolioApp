@@ -2,6 +2,14 @@
 /* mobile device view */
 /* media-queries */
 @media (min-width: 376px) and (max-width:425px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem 9%;
+        background: #7b00ff;
+    }
     .input-box label{
         position: absolute;
         top: 50%;
@@ -198,8 +206,8 @@
     }
     .footer-icontop>.foot>.arrow
     {
-        border-radius: 50%;
-        padding:10px 20px;
+        border-radius: 10%;
+        padding:10px 15px;
     }
     /* contact form */
     .contact>form>.input-box>.input-field

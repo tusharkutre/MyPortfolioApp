@@ -1,7 +1,15 @@
 /* breakpoints for mobile device approach */
 /* mobile device view */
 /* media-queries */
-@media (min-width: 321px) and (max-width:375px) {      
+@media (min-width: 321px) and (max-width:375px) {  
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem 9%;
+        background: #9900ff;
+    }    
     .input-box label{
         position: absolute;
         top: 50%;

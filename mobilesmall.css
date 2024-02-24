@@ -2,6 +2,14 @@
 /* mobile device view */
 /* media-queries */
 @media (max-width: 320px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem 9%;
+        background: #9900ff;
+    }
         @media (max-width: 1024px) {
           .sidebar-open {
               -webkit-filter: blur(2px);
@@ -372,7 +380,7 @@
     .footer-icontop>.foot>.arrow
     {
         border-radius: 50%;
-        padding:10px 20px;
+        padding:10px 15px;
     }
     /* contact form */
     .contact>form>.input-box>.input-field

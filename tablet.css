@@ -1,4 +1,12 @@
 @media (min-width: 426px) and (max-width:768px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0.5rem 9%;
+        background: #9900ff;
+    }
     .icon.textBlack{
         color: black;
     }
@@ -145,8 +153,8 @@ footer
 }
 .footer-icontop>.foot>.arrow
 {
-    border-radius: 4px;
-    padding:10px 20px;
+    border-radius: 16px;
+    font-size: 10px;
 }
 .sidebar{
     height: 100%;
@@ -207,7 +215,7 @@ footer
     column-gap: 70px;
     row-gap: 40px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .skills-box>.front-end>.mobile-size{
   width: 100%;
