@@ -9,6 +9,9 @@
     /* left:tb-padding right:lr-padding */
     background-color: #39026b;
 }
+.footer-icontop>.foot>.arrow{
+  border: 0.3rem solid white;
+}
   .contact>form{
     display: grid;
 gap: 1.5rem;

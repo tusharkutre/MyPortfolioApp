@@ -204,10 +204,11 @@
     {
         display: none;
     }
-    .footer-icontop>.foot>.arrow
-    {
-        border-radius: 10%;
-        padding:10px 15px;
+    .footer-icontop>.foot>.arrow {
+        border-radius: 20%;
+        padding: 10px 15px;
+        background: rgb(238, 0, 255);
+        border: 0;
     }
     /* contact form */
     .contact>form>.input-box>.input-field

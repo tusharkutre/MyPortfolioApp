@@ -202,10 +202,11 @@
     {
         display: none;
     }
-    .footer-icontop>.foot>.arrow
-    {
-        border-radius: 50%;
-        padding:10px 20px;
+    .footer-icontop>.foot>.arrow {
+        border-radius: 20%;
+        padding: 10px 15px;
+        background: black;
+        border: 0;
     }
     /* contact form */
     .contact>form>.input-box>.input-field

@@ -7,6 +7,9 @@
         padding: 1rem 9%;
         background: #9900ff;
     }
+    .footer-icontop>.foot>.arrow{
+        border: 0.3rem solid white;
+      }
     .contact>form{
         display: grid;
     gap: 1.5rem;
@@ -211,6 +214,7 @@ nav ul {
 .logo1.react:hover {
     filter: drop-shadow(0 0 24px #61dafbaa);
 }
+
 /* created an react animation */
 @keyframes logo-spin {
     from {
