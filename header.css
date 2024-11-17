@@ -7,9 +7,6 @@
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    /* background-color: yellowgreen; */
-  
-    /* z-index: 1; */
 }
 .header.sticky
 {
@@ -56,10 +53,9 @@
     cursor: pointer;
 }
 body{
-    transition: 0.3s ease;
+    transition: 0.1s ease;
 }
 
-/* finally achieved */
 /* Dark mode styles */
 ul>.textBlack{
     color: black;
