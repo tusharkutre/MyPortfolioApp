@@ -56,7 +56,7 @@
     cursor: pointer;
 }
 body{
-    transition: 1s;
+    transition: 0.3s ease;
 }
 
 /* finally achieved */
