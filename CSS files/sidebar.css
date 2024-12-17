@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.sidebar {
+/* .sidebar {
     height: 100%;
     width: 0;
     position: fixed;
@@ -14,7 +14,21 @@ body {
     transition: 0.5s;
     padding-top: 60px;
     color: white;
-}
+} */
+
+body.sidebar-open {
+    overflow: hidden; /* Prevent scrolling of the body when sidebar is open */
+  }
+
+.sidebar {
+    position: fixed; /* Keep sidebar fixed */
+    left: -320px; /* Hide sidebar off-screen */
+    transition: left 0.3s ease; /* Smooth transition */
+  }
+
+.sidebar.open {
+    left: 0; /* Show sidebar */
+  }
 
 .sidebar ul {
     list-style: none;
@@ -41,10 +55,12 @@ body {
 }
 
 .content {
-    transition: margin-left 0.5s;
-    margin-left: 0;
-    padding: 20px;
-}
+    transition: margin-left 0.3s ease; /* Smooth transition for content */
+  }
+  
+  .sidebar-open .content {
+    margin-left: 320px; /* Push content to the right when sidebar is open */
+  }
 
 @media screen and (max-width: 768px) {
     .sidebar {
